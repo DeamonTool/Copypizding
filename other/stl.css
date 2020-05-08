@@ -1,0 +1,25 @@
+.wave {
+    color: #ffffff;
+    height: 196px;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+  }
+  
+  .wave .swap-image {
+    cursor: pointer;
+    height: 100%;
+    width: 251px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  
+  .wave .dolg-image {
+    background: url(dolg.png);
+  }
+  
+  .wave .svoboda-image {
+    background: url(svoboda.png);
+  }
